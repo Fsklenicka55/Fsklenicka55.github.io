@@ -180,6 +180,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    body{
+        margin: 0px 3px 0px 3px;
+    }
   .topbar {
     padding: 10px 20px;
     position: relative;
