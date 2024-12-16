@@ -1,3 +1,4 @@
+/* Globalni nastaveni */
 body {
   background-color: #040d12;
   font-family: "Roboto", sans-serif;
@@ -11,6 +12,7 @@ body {
   min-height: 100vh;
 }
 
+/* Nastaveni navigacniho menu */
 .topbar {
   display: flex;
   justify-content: center;
@@ -51,6 +53,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Stylovani Kontentu na indexu */
 .intro {
   text-align: center;
   margin: 50px 20px;
@@ -69,6 +72,7 @@ body {
   margin: 0 auto;
 }
 
+/* Stylovani pro tlacitko na indexu */
 .btn {
   display: inline-block;
   margin-top: 15px;
@@ -88,6 +92,7 @@ body {
   color: aqua;
 }
 
+/* Stylovani pro sekci o me */
 .about_me,
 .skills {
   text-align: center;
@@ -104,6 +109,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Stylovani Listu s dovednostma */
 .skills_list {
   list-style: none;
   padding: 0;
@@ -126,6 +132,7 @@ body {
   transform: scale(1.1);
 }
 
+/* Stylovani a pozicovani kontentu na strance s projekty */
 .main_content_projekty {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -133,6 +140,7 @@ body {
   padding: 40px 20px;
 }
 
+/* Stylovani fotek u projektu */
 .fotka_projekty {
   text-align: center;
   background-color: #121a1e;
@@ -160,6 +168,7 @@ body {
   color: aqua;
 }
 
+/* Stylovani kontaktnich udaju */
 .contact_details {
   max-width: 600px;
   margin: 50px auto;
@@ -193,6 +202,7 @@ body {
   color: dimgray;
 }
 
+/* Stylovani paticky */
 .footer {
   background-color: #000;
   color: aliceblue;
@@ -208,25 +218,7 @@ body {
   padding: 0 20px;
 }
 
-.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0 0;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.footer-links a {
-  color: aliceblue;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: aqua;
-}
-
+/* Stylovani galerie (podobne jako u projektu) */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -254,6 +246,8 @@ body {
   filter: brightness(0.8);
 }
 
+
+/* Uprava stylu pro mobilni zarizeni */
 @media (max-width: 768px) {
   .topbar {
     padding: 10px 20px;
